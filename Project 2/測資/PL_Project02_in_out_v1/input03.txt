@@ -1,0 +1,6 @@
+3
+string str ;
+str = "This is a fine day.\n" ;
+float y ;
+y = 20 ;
+Done();

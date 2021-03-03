@@ -1,0 +1,8 @@
+1
+;quit // since ';' is unexpected, the whole line is discarded
+salary:=2900+quit; // Comment here
+(())
+Quit quit
+2+3.4.5+6;
+quit@#$//
+3+5;

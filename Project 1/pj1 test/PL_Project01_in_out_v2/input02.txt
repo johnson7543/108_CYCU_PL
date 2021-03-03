@@ -1,0 +1,7 @@
+2
+( 1.0 / 100000 ) = ( 1.0/10000000 ) ;  // difference is within 0.0001
+( 1.0 / 100000 ) > ( 1.0/10000000 ) ;
+( 1.0 / 100 ) = ( 1.0/1000000 ) ;  // difference is more than 0.0001
+( 1.0 / 100 ) > ( 1.0/1000000 ) ;
+quit
+To be or not to be?  That is the question.

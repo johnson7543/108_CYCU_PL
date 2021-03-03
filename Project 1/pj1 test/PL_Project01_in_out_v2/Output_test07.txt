@@ -1,0 +1,23 @@
+Program starts...
+> -5347.143
+> Unexpected token : '.5'
+> Unexpected token : '.5'
+> 5
+> Unexpected token : '.4'
+> -5
+> 3.000
+> 31.031
+> 31.063
+> 8.750
+> 5
+> 5.000
+> 5
+> 8
+> 40
+> 5
+> 5.000
+> 5.000
+> -3
+> Unexpected token : 'b'
+> Undefined identifier : 'quit'
+> Program exits...

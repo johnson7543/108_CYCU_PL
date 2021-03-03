@@ -1,0 +1,8 @@
+1
+int ad ; bd
+int AddTwo( int x, int b[30], char a[30], int c ) { return x + 2 ; } // comment
+ListAllFunctions() ;
+ListFunction( "AddTwo" ) ;
+int AddTwo( int a, int b[30], char asd[30], int f ) { return a + 2 ; } // comment
+ListFunction( "AddTwo" ) ;
+Done() ;

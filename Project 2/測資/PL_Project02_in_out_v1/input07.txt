@@ -1,0 +1,18 @@
+3
+int AddTwo( int x ) { return x + 2 ; } // comment
+int AddFive( int x ) { int y ; y = AddTwo( x ) ; // comment
+                       return y + 3 ; }          // comment
+ListAllFunctions() ;
+ListFunction( "AddFive" ) ;
+int x ;
+x = 100 ;
+x = x + AddFive( x ) ;
+if ( x > 200 )
+  x = AddTwo( 300 ) ;
+else
+  x = x + AddFive( 200 ) + 5 ;
+if ( AddTwo( x ) > 200 )
+  x = 5 + AddThree( 300 ) ;
+else
+  x = x + AddFive( 200 ) + 5 ;
+Done() ;

@@ -1,0 +1,6 @@
+Program starts...
+> true
+> false
+> false
+> true
+> Program exits...

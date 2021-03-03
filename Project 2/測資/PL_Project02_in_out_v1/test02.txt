@@ -1,0 +1,145 @@
+2
+// variable
+
+int gInt, gIntArray[30], gInt2 ;
+char gCharArray[10], gChar, gChar2 ;
+float gFloat, gFloat2, gFloatArray[10] ;
+string gStringArray[10], gString, gStringArray2[10] ;
+
+gInt = 5*+-+(+-(-+4)-+1)-+-2 ;
+gIntArray[0] = 5*+-+(2*+-+4) ;
+gIntArray[1] = 5*+-+(2*+3*-+4);
+gIntArray[2] = -(+2*3-+-2)-5*-+(2*+3*(-+4)*+2*+-+-(4+(6-8*2)-3))*+(2-+1);
+gIntArray[3] = (8)*-+9*(((-(10*-+-+3-+2+-3-+(+-+4*+2))*+-+(+-(6)*-5*+-+2*4*-+-2))/-+-2))*+-22;
+
+gIntArray[4] = (8)*-+9*((
+            (-(              10*    -+  gInt-+
+    3-         +2
++-3              -+(+-+4*+2))*
+                   +-+(+-(6)*- gIntArray[3] *      +
+-+2*  gIntArray[1]*-       +-2)
+)                 /-+-  gIntArray[0])            )*+-
+                          22;
+
+bool gBool, gBoolArray[10], gBoolArray2[10] ;
+
+gBoolArray2[5] = true ;
+gBoolArray2[5] = false ;
+
+// function
+
+void Sort( int 
+intArray[ 30 ]
+ ) {  int i ;
+  i = 0 ;  while ( i < 29 ) {    int j ;
+    j = i ;    while ( j < 30 ) {      if (intArray[ j ] <
+	intArray[ i              ] ) {
+        int temp ;        temp = intArray[ i ] ;
+  intArray[ i ] = intArray[ j ] ;
+    intArray[ j ] = temp ;      }      j++ ;
+    }    i++ ;
+  }}
+  
+// empty function
+
+void EmptyFunc() {
+}
+
+void EmptyFunc2( void ) {
+}
+  
+// function has global variable
+
+int IntFunc( string strArray[ 10 ] ) {
+  float f ;
+  f = gFloat + gFloat2 ;
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      cin >> gChar >> gCharArray[ 0 ] >> gCharArray[ 1 ] >> gCharArray[ 2 ] ;
+      j++ ;
+    }
+    i++ ;
+	cout << gStringArray[ 0 ] << gStringArray[ 1 ] << gString ;
+  }
+  return gInt ;
+}
+
+// function call function
+
+float FloatFunc( int intArray[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    Sort( intArray ) ;
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      if ( intArray[ j ] < intArray[ i ] ) {
+        Sort( gIntArray ) ;
+      }
+      j++ ;
+	  IntFunc( gStringArray2 ) ;
+    }
+    i++ ;
+  }
+  return 1.112 ;
+}
+
+// function call itself ( recursive )
+
+bool BoolFunc( bool boolArray[ 10 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    BoolFunc( boolArray ) ;
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+	  bool bbArr[ 10 ], bbArr2[ 10 ] ;
+      if ( j < i ) {
+        BoolFunc( bbArr ) ;
+		BoolFunc( bbArr2 ) ;
+      }
+      j++ ;
+	  BoolFunc( gBoolArray2 ) ;
+    }
+    i++ ;
+  }
+  BoolFunc( gBoolArray ) ;
+  return true ;
+}
+
+// function overloading
+
+void StrFunc( void ) {
+
+}
+
+void StrFunc( char ch ) {
+
+}
+
+void StrFunc( int intArray[ 30 ] ) {  int i ;
+  i = 0 ;  while ( i < 29 ) {    int j ;
+    j = i ;    while ( j < 30 ) {      if (intArray[ j ] <
+	intArray[ i              ] ) {
+        int temp ;        temp = intArray[ i ] ;
+  intArray[ i ] = intArray[ j ] ;
+    intArray[ j ] = temp ;      }      j++ ;
+    }    i++ ;
+  }}
+
+// -----------------------------
+
+ListFunction( "Sort" ) ;
+ListFunction( "EmptyFunc" ) ;
+ListFunction( "EmptyFunc2" ) ;
+ListFunction( "IntFunc" ) ;
+ListFunction( "FloatFunc" ) ;
+ListFunction( "BoolFunc" ) ;
+ListFunction( "StrFunc" ) ;
+Done() ;

@@ -1,0 +1,150 @@
+1
+
+if ( 1 ) {
+}
+]
+
+[
+
+int ad ; bd
+
+
+if ( 1 ) {
+}
+
+
+]
+
+if ( 1 ) {
+  if( 1 ) {
+  }
+
+  k
+  int l ;
+}
+
+
+if ( 1 ) {
+  if( l ) {
+ 
+  }
+  
+  else
+   k
+  int l ;
+}
+
+
+
+if ( 2 ) 
+  ]
+[
+else
+
+int a;
+  
+// fgh
+  // gfdhtr 
+
+]
+
+int a, b , c ;
+
+string a[20], b { ; // error
+
+ListVariable("a") ;
+ListAllVariables() ;  
+  bool
+
+c {
+
+ListAllVariables() ;
+
+int a 
+
+int ;
+
+ListVariable("a") ;
+ListAllVariables() ;
+
+char b,c,d,e ;
+ListAllVariables() ;
+
+string d
+,
+e,
+a[40] ;
+ListVariable("a") ;
+
+int d,e, a[-2] ;
+ListVariable("a") ;
+ListAllVariables() ;
+
+int a, b, c ;
+
+void test(int&y,int &z,int b[ 20], string str) {
+while ( ( a!=b && !b ) ||
+  ( a==b && ! a ) ) {
+  
+  int num, i, j ;
+  string str ;
+  bool bbb[50       ] ;
+  float ff ;
+  ++  ff, -- ff, ff ++, ff -- ;
+  ff>>2;ff<<3 ;
+  cout<<++ff ;
+  cin >>ff++; cin >> bbb[50] ;  
+  if ( num > i || num <= j ) 
+    str = "this is constant   " ;
+  else {
+  if ( num >= i | num < j ) {
+	  int x,y,z ;
+	  x= x + 1 ; y =y - 1 ; z = z * 1 ; x = 1 / 2 ;
+	  x=x%1;
+   x+=2;y-=-2;z%=1;z/=3;
+    } // if
+	else {
+	  int n1, n2 ;
+	  if(n1==n2)return n1 ;
+	  else (a=b>c?a:num) ;
+	} // else
+  }
+  
+  do { if ( i ) { return 0 ; }
+    str = str + "this" ;
+	// 
+	//
+
+	if ( ( ff ^str) )
+	  return 0 ;
+	
+	}
+  while ((( bbb)) ) ;
+  
+} // while
+} 
+ ListFunction("test") ;
+ ListVariable("test");
+ int test1( char str ) {
+  bool n, n1,n2 ;
+  int n, n1 ;
+ 
+ n1 = a + test() ;
+ test() ;
+ test() + a ;
+ return test() ;
+ while(
+ (test())) return 1 ;
+ } 
+ 
+ ListFunction("test1") ;
+ 
+void test1[
+] ;
+ListFunction("test1") ;
+void test
+(void)
+{
+}
+ListFunction("test") ;
+ListAllFunctions() ;

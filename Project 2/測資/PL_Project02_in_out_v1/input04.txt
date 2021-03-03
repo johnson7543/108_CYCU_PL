@@ -1,0 +1,10 @@
+2
+string str ;
+str = "This is a fine day.\n" ;
+str = str + "Isn't it?\n" ;
+cout << str ;
+float y ;
+int x ;
+y = 20 * ( x - y ) / 34.5 ;
+cout << "Value of 'y' is now : " << y << "\n" ;
+Done();

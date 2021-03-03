@@ -1,0 +1,57 @@
+;quit // since ';' is unexpected, the whole line is discarded
+quit@#$//
+3+5;
+
+>>Program starts...
+> Unexpected token : ';'
+> Program exits...<<
+
+
+
+
+
+salary:=2900; // Comment here
+//
+salary
+;
+salary:=salary+100;
+this_is_a_name123:=500:=5;
+this_is_a_name123+5
+;
+this_is_a_name:=500//-30+5
+//;
+;
+monthsPerYear:=12;
+income:=salary*monthsPerYear;
+income*10;
+income*10>50000-100+50*2;
+income*10>500000+income-2*income+income;
+salary:=30000;
+(salary*monthsPerYear*10)>500000;
+(salary*(monthsPerYear-10)+20000)*10>
+(30000*2)*10+2*10000*10
+;
+(20000+salary*(monthsPerYear-10))*10
+=
+2*10000*10+(30000*2)*10
+;quit$
+
+
+>>Program starts...
+> 2900
+> 2900
+> 3000
+> Unexpected token : ':='
+> Undefined identifier : 'this_is_a_name123'
+> Unexpected token : ';'
+> 500
+> 12
+> 36000
+> 360000
+> true
+> false
+> 30000
+> true
+> false
+> true
+> Program exits...<<

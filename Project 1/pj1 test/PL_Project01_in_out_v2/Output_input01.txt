@@ -1,0 +1,12 @@
+Program starts...
+> 3000
+> 12
+> 36000
+> 360000
+> true
+> false
+> 30000
+> true
+> false
+> true
+> Program exits...

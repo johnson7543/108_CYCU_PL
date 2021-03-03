@@ -1,0 +1,16 @@
+Program starts...
+> 3000
+> Unexpected token : ':='
+> Undefined identifier : 'this_is_a_name123'
+> Unexpected token : ';'
+> 500
+> 12
+> 36000
+> 360000
+> true
+> false
+> 30000
+> true
+> false
+> true
+> Program exits...

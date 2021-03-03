@@ -1,0 +1,20 @@
+Program starts...
+> 5
+> 5
+> 5
+> 5
+> 3
+> Unrecognized token with first char : '$'
+> Unexpected token : '*'
+> 5
+> 101
+> 202
+> Undefined identifier : 'bcd'
+> 1
+> 2
+> 11
+> 11
+> 14
+> true
+> false
+> Program exits...

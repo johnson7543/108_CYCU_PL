@@ -1,0 +1,7 @@
+Program starts...
+> Unexpected token : ';'
+> Undefined identifier : 'quit'
+> Unexpected token : ')'
+> Unexpected token : 'quit'
+> Unexpected token : '.5'
+> Program exits...

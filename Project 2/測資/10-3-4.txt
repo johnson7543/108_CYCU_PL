@@ -1,0 +1,48 @@
+int first, second, max ;
+cin >> first >> second ;
+if ( ( first > second ) && ( second > 0 ) )
+  if ( second > -35 )
+    while ( max < 35 )
+      max = max + 5 ;
+  else 
+    max = second - 35 ;
+else { // NOT ( ( first > second ) && ( second > 0 ) )
+  second++ ;
+  max = second ;
+} // else
+
+if ( ( first > second ) && ( second > 0 ) )
+  if ( second > -35 )
+    max = 35 - -second ;
+  else 
+    max = second - 35 }
+else { // NOT ( ( first > second ) && ( second > 0 ) )
+  second++ ;
+  max = second ;
+} // else
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  if ( first > 5 )
+    first = first + ;
+  while ( second + 5 > first )
+    first++ ;
+} // while ( max >= 0 )
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  if ( first > second )
+    first = first + second ;
+  while ( second + 5 > first )
+    first++ ;
+} // while ( max >= 0 )
+max = first > second ? first : second ;
+cout << "Value of first is : " << first << "\n" ;
+cout << "Value of max is : " << max << "\n" ;
+Done() ;

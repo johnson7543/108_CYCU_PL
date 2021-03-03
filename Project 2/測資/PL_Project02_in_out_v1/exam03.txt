@@ -1,0 +1,23 @@
+3
+int AddFive(){return 5;}//int this,is,a,book;
+int AddTwo( int x ) { return x + 2 ; } // comment
+int AddFive( int x ) { int y ; y = AddTwo( x ) ; // comment
+                       return y + 3 ; }          // comment
+int Factorial( int n, int m ) {
+  z = n + m ;
+  return z ;
+} // Factorial()
+ListAllFunctions() ;
+ListFunction( "AddFive" ) ;
+int x ;
+x = 100 ;
+x = x + AddFive( x ) ;
+if ( x > 200 )
+  x = AddTwo( 300 ) ;
+else
+  x = x + AddFive( 200 ) + 5 ;
+if ( AddTwo( x ) > 200 )
+  x = 5 + AddThree( 300 ) ;
+else
+  x = x + AddFive( 200 ) + 5 ;
+Done() ;

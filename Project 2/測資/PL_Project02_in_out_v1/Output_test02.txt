@@ -1,0 +1,137 @@
+Our-C running ...
+> Definition of gInt entered ...
+Definition of gIntArray entered ...
+Definition of gInt2 entered ...
+> Definition of gCharArray entered ...
+Definition of gChar entered ...
+Definition of gChar2 entered ...
+> Definition of gFloat entered ...
+Definition of gFloat2 entered ...
+Definition of gFloatArray entered ...
+> Definition of gStringArray entered ...
+Definition of gString entered ...
+Definition of gStringArray2 entered ...
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Statement executed ...
+> Definition of gBool entered ...
+Definition of gBoolArray entered ...
+Definition of gBoolArray2 entered ...
+> Statement executed ...
+> Statement executed ...
+> Definition of Sort() entered ...
+> Definition of EmptyFunc() entered ...
+> Definition of EmptyFunc2() entered ...
+> Definition of IntFunc() entered ...
+> Definition of FloatFunc() entered ...
+> Definition of BoolFunc() entered ...
+> Definition of StrFunc() entered ...
+> New definition of StrFunc() entered ...
+> New definition of StrFunc() entered ...
+> void Sort( int intArray[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      if ( intArray[ j ] < intArray[ i ] ) {
+        int temp ;
+        temp = intArray[ i ] ;
+        intArray[ i ] = intArray[ j ] ;
+        intArray[ j ] = temp ;
+      }
+      j++ ;
+    }
+    i++ ;
+  }
+}
+Statement executed ...
+> void EmptyFunc() {
+}
+Statement executed ...
+> void EmptyFunc2( void ) {
+}
+Statement executed ...
+> int IntFunc( string strArray[ 10 ] ) {
+  float f ;
+  f = gFloat + gFloat2 ;
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      cin >> gChar >> gCharArray[ 0 ] >> gCharArray[ 1 ] >> gCharArray[ 2 ] ;
+      j++ ;
+    }
+    i++ ;
+    cout << gStringArray[ 0 ] << gStringArray[ 1 ] << gString ;
+  }
+  return gInt ;
+}
+Statement executed ...
+> float FloatFunc( int intArray[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    Sort( intArray ) ;
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      if ( intArray[ j ] < intArray[ i ] ) {
+        Sort( gIntArray ) ;
+      }
+      j++ ;
+      IntFunc( gStringArray2 ) ;
+    }
+    i++ ;
+  }
+  return 1.112 ;
+}
+Statement executed ...
+> bool BoolFunc( bool boolArray[ 10 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    BoolFunc( boolArray ) ;
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      bool bbArr[ 10 ], bbArr2[ 10 ] ;
+      if ( j < i ) {
+        BoolFunc( bbArr ) ;
+        BoolFunc( bbArr2 ) ;
+      }
+      j++ ;
+      BoolFunc( gBoolArray2 ) ;
+    }
+    i++ ;
+  }
+  BoolFunc( gBoolArray ) ;
+  return true ;
+}
+Statement executed ...
+> void StrFunc( int intArray[ 30 ] ) {
+  int i ;
+  i = 0 ;
+  while ( i < 29 ) {
+    int j ;
+    j = i ;
+    while ( j < 30 ) {
+      if ( intArray[ j ] < intArray[ i ] ) {
+        int temp ;
+        temp = intArray[ i ] ;
+        intArray[ i ] = intArray[ j ] ;
+        intArray[ j ] = temp ;
+      }
+      j++ ;
+    }
+    i++ ;
+  }
+}
+Statement executed ...
+> Our-C exited ...

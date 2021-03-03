@@ -1,0 +1,18 @@
+1
+salary := 3000 ;
+monthsPerYear := 12 ;
+income := salary * monthsPerYear ;
+income * 10 ;
+income * 10 > 50000 ;
+income * 10 > 500000 ;
+salary := 30000 ;
+( salary * monthsPerYear * 10 ) > 500000 ;
+( salary * ( monthsPerYear - 10 ) + 20000 ) * 10 > 
+  ( 30000  * 2 ) * 10               + 2 * 10000 * 10
+  ;
+( 20000 + salary * ( monthsPerYear - 10 ) ) * 10 = 
+  2 * 10000 * 10 +             ( 30000  * 2 ) * 10
+  ;
+quit
+1+2;
+hello, can you hear me?

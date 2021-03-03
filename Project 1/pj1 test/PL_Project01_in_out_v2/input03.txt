@@ -1,0 +1,38 @@
+3
+2+3;  // the simplest form of commands
+2     +3 // a line-comment here ; useless "input" here :  5+8;
+  ;        // another line-comment ;;; ('5+8;' and ';;;' should be ignored)
+2
++ 3
+
+
+  // Hello!  Hello! Can you do 7 + 8 ?
+
+      ; // your program should always skip white spaces
+
+   2   + 3      
+ 
+     ;      1  + 2 // no input is "got" until there is a line-enter
+// once a command '2+3;' is read in, the system immediately gives an response ;
+; // but then, the next command '1+2' is already "in process" ;
+2 + $$ - 5
+2 + * + 5 + 8
+// once an input error is encountered, the remaining input on the same
+  // line is ignored ; input-processing will resume for the next line
+2
+    +
+    3
+;
+abc := ( 20 * 5 ) + 1 ;
+abc * 2 ;
+bcd * 2 ;
+bcd := 1
+;
+bcd * 2;
+bcd := bcd + 10 ;
+e := bcd
+
+  ; e := e + 3 ;
+e > bcd ;
+e < bcd ;
+quit

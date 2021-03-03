@@ -1,0 +1,18 @@
+1
+int x ;
+x=10;
+{ int x ;
+  x = 10 ;
+}
+cout << x ;
+string str ;
+str = "This is a fine day.\n" ;
+float y ;
+{ float yy ;
+  yy=y+yy;
+  yy=y
+  ; 
+}
+y = 20 ;
+Done(); int x ; cout << y ;
+x = 10 ;

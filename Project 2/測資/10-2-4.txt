@@ -1,0 +1,37 @@
+int first ;
+int second, max ;
+cin >> First ;
+cin >> first 
+    >> second ;
+if ( ( first > second ) && ( second > 0 ) )
+  max = first ;
+else
+  max = second ;
+if ( ( first > second ) && ( second > 0 ) ) )
+  max = first ;
+else
+  max = second ;
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  first = first + sacond ;
+  max-- ;
+} // while ( max >= 0 )
+
+while ( ( max >= ( first - second ) 
+        )
+        ||
+        ( max > 100 ) 
+      ) {
+  first = first + second ;
+  max-- ;
+} // while ( max >= 0 )
+cout << "Value of first is : " << first << "\n" ;
+cout << "Value of max is : " << max << "\n" ;
+  ( first = max ) ;
+  ( ( first + max1
+    ) 
+  ) ;
+Done() ;

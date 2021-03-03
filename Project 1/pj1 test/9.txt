@@ -1,0 +1,18 @@
+;quit // since ';' is unexpected, the whole line is discarded
+salary:=2900+quit; // Comment here
+(())
+Quit quit
+2+3.4.5+6;
+20-30-((3));
+quit@#$//
+3+5;
+
+
+>>Program starts...
+> Unexpected token : ';'
+> Undefined identifier : 'quit'
+> Unexpected token : ')'
+> Unexpected token : 'quit'
+> Unexpected token : '.5'
+> -13
+> Program exits...<<
