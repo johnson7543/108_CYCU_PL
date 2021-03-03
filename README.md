@@ -17,3 +17,11 @@
 ![](https://i.imgur.com/LJIBLhq.png)
 
 ![](https://i.imgur.com/Bcc2Q8w.gif)
+
+
+## 最終成績
+![](https://i.imgur.com/oqcPLM2.jpg)
+
+![](https://i.imgur.com/t4YxFWi.jpg)
+
+易過難高分
