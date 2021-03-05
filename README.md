@@ -1,6 +1,6 @@
 # PL108_10627110
 
-存放夏老大的PL作業，資料夾裡的是文件、測資、別人寫的程式碼。
+存放夏老大的PL作業，資料夾裡的是文件、測資、對照組。
 
 ### PL_Interpreter_1.cpp
 #### <a href="https://drive.google.com/file/d/14AsQhI5z3erT6Nsi692uzFqVdnSsWzOc/view?usp=sharing">說明文件</a>
