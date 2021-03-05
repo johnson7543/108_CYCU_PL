@@ -1,10 +1,38 @@
 # PL108_10627110
 
-存放夏老大的PL作業
+存放夏老大的PL作業，資料夾裡的是文件、測資、別人寫的程式碼。
 
-資料夾裡的是文件、測資、別人寫的程式碼
+PL_Interpreter_1.cpp
+功能：
+  1. 宣告變數
+  2. 進行加減乘除以及布林運算的intepreter
+
+PL_Interpreter_2.cpp
+可以執行簡易的C++like程式碼並且內建function呼叫：
+  
+  ListAllVariables();          
+  > just the names of the (global) variables, sorted (from smallest to greatest)   
+  
+  ListAllFunctions();          
+  > just the names of the (user-defined) functions, sorted                         
+  
+  ListVariable(char name[]);
+  > the definition of a particular variable 
+  
+  ListFunction(char name[]);
+  > the definition of a particular function  
+  
+  Done();
+  > exit the interpreter
+
+
+
+
 
 ### <a href="https://www.youtube.com/playlist?list=PL4FbYbR7l9P7nnCbfR_3fopxqveKWrtJh">PL上課影片</a>
+
+
+懷念用：
 
 ![](https://i.imgur.com/AwNEBsA.gif)
 
